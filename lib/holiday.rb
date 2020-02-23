@@ -52,6 +52,13 @@ holiday_hash.each do |season, data|
         array.each do |x|
           final_holiday << x.capitalize!
         end
+        holiday = final_holiday.join(" ")
+
+      supply = supply.join(", ")
+      puts "  #{holiday}: #{supply}"
+
+    end
+  end
 
 end
 
