@@ -66,7 +66,7 @@ end
 end
 
 def all_holidays_with_bbq(holiday_hash)
-  answer = []
+answer = []
 holiday_hash.each do |season, data|
   data.each do |holiday, value|
     value.each do |supply|
@@ -75,8 +75,6 @@ holiday_hash.each do |season, data|
       end
     end
   end
-end	
-answer
 
 end
 
