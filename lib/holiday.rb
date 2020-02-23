@@ -28,7 +28,7 @@ end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
-ho
+holiday_hash[:spring][:memorial_day] = "Grill"
 
 end
 
